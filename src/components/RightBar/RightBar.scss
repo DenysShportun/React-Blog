@@ -1,0 +1,15 @@
+.css-r6rco0-MuiStack-root > :not(style) + :not(style) {
+    margin-left: 0;
+}
+.col-12 {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .css-r6rco0-MuiStack-root {
+        flex-direction: column;
+    }
+    .css-1sgewp7-MuiList-root {
+        justify-items: baseline;
+        margin: 0 auto;
+    }
+}
