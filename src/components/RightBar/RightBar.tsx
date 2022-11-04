@@ -9,8 +9,6 @@ import {
     Typography,
 } from "@mui/material"
 
-import "./RightBar.scss"
-
 import React from "react"
 
 import PostImage2 from "../../images/image2.jpg"
@@ -21,7 +19,7 @@ type Props = {}
 
 const RightBar = (props: Props) => {
     return (
-        <Box className="RightBar">
+        <Box>
             <Typography align="center" bgcolor={"black"} color="yellow">
                 Most Popular
             </Typography>

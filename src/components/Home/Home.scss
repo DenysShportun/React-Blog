@@ -1,0 +1,9 @@
+.RightBar {
+    margin-left: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .Contant {
+        flex-direction: column;
+    }
+}
